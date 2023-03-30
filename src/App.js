@@ -1,11 +1,9 @@
-
+import Player from "./Components/Player";
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Test  
-      </h1>
+      <Player/>
     </div>
   );
 }

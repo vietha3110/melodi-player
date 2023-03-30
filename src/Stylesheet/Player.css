@@ -1,0 +1,42 @@
+.player-comp {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    border: 1px solid #cccccc;
+    
+}
+
+.player-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.player-playbtn {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wrapper-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-default {
+    color: rgba(0,0,0, 0.5);
+    cursor: pointer;
+}
+
+.fa-default:hover {
+    color: rgba(0,0,0, 0.8);
+}
+
+.fa-play {
+    font-size: 1.5rem;
+}
